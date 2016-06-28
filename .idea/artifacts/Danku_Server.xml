@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Danku Server">
+    <output-path>$PROJECT_DIR$/out/artifacts/Danku_Server</output-path>
+    <root id="archive" name="Danku Server.jar">
+      <element id="module-output" name="ChatterBox" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/com/chat/server/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
