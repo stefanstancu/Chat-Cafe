@@ -9,7 +9,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 /**
- * Created by dapan on 2015-11-13.
+ * Created by Stefan Stancu on 2015-11-13.
  */
 public class Client implements Runnable{
 
@@ -52,7 +52,7 @@ public class Client implements Runnable{
             String message = input.nextLine();
 
             if(message.toCharArray()[0]=='/'){
-                //check for commnads
+                //check for commands
                 if(message.equals("/user")){
                     out.println("/$"+ClientGUI.userName.getText());
                     out.flush();
