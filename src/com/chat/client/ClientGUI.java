@@ -10,7 +10,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 
 /**
- * Created by dapan on 2015-11-14.
+ * Created by Stefan Stancu on 2015-11-14.
  */
 public class ClientGUI {
 
@@ -41,7 +41,7 @@ public class ClientGUI {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        window = new JFrame("Danku's Chat Cafe");
+        window = new JFrame("Chat Cafe");
         window.setSize(700, 600);
         window.setIconImage(iconImg);
 
